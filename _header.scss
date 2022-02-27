@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+    margin-top: 5.625rem;
+    margin-bottom: 4.6875rem;
+    max-width: 32.1875rem;
+    margin-left: auto;
+    margin-right: auto;
+    @include breakpoint-up(large){
+        margin-bottom: 4.0625rem;
+    }
+    h1{
+        font-weight: 200;
+        font-size: 1.5625rem;
+        line-height: 1;
+        margin-bottom: .625rem;
+        color: $veryDarkBlue;
+    }
+    h2{
+        font-weight: 600;
+        font-size: 1.5625rem;
+        line-height: 1;
+        margin-bottom: 1.25rem;
+        color: $veryDarkBlue;
+    }
+    p{
+        color: $grayishBlue;
+    }
+}
